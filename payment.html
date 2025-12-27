@@ -186,9 +186,11 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 <span class="strike mrp ms-0 mb-1" id="mrp">&#8377;</span>
                 <span class="selling_price paymet-price" id="selling_price">&#8377;</span>
             </div>
-            <button class="buynow-button product-page-buy col-6 btn-continue available-method" onclick="placeOrder()">
-            Order Now
-        </button>
+            <button class="buynow-button product-page-buy col-6 btn-continue"
+        onclick="window.location.href='pay.php'">
+    Order Now
+</button>
+
         </div>
     </div>
 
@@ -242,3 +244,4 @@ document.querySelectorAll('.available-method').forEach(el => {
 
 
 </html>
+
